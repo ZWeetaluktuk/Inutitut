@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="128dp"
+        android:textSize="128sp"
+        android:text="ᖑ"
+        android:id="@+id/mainLetter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainLetter"
+        android:id="@+id/explainer"
+        android:text="Ngu"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/sylSound"
+            android:layout_alignParentBottom="true"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:onClick="sound"
+            android:text="@string/SoundButton"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/sylNext"
+            android:layout_alignParentBottom="true"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@+id/sylSound"
+            android:onClick="next"
+            android:text="@string/NextButton"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

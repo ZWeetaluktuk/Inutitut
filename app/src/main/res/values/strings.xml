@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Inutitut</string>
+    <string name="lessonButton">Lessons</string>
+    <string name="syllabicsButton">Syllabics</string>
+    <string name="wordsButton">Words</string>
+    <string name="sentenceBuilderButton">Sentece Builder</string>
+    <string name="starredButton">Starred</string>
+    <string name="partyButton">Party</string>
+    <string name="SoundButton">Listen</string>
+    <string name="NextButton">Next</string>
+
+</resources>
